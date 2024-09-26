@@ -1,0 +1,37 @@
+.taskform {
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.inputBar {
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    color: rgb(17, 2, 2);
+    font-size: 15px;
+}
+
+.inputBar:focus {
+    outline: none;
+}
+
+.inputButton {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    color: rgb(60, 6, 6);
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.inputContainer {
+    display: flex
+}
