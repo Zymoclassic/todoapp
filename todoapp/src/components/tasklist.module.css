@@ -9,6 +9,7 @@
 .myItemName{
     font-weight: bold;
     padding: 20px;
+    cursor: pointer;
 }
 
 .line {
@@ -25,3 +26,6 @@
     cursor: pointer;
 }
 
+.completed {
+    text-decoration: line-through;
+}
