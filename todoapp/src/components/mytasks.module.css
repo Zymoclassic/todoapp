@@ -8,3 +8,10 @@
     margin-top: 30px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 550px) {
+    .list {
+        width: 30rem;
+        margin-left: 3.5rem;
+    }
+}

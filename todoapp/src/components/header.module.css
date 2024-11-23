@@ -1,10 +1,20 @@
 .header {
+    width: 100%;
     background-color: blanchedalmond;
     text-align: center;
     font-weight: bold;
-    height: 40px;
-    padding: 10px;
-    font-size: 2em;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 2rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     color: rgb(58, 3, 3);
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        width: 38rem;
+        font-size: 1.5rem;
+        height: auto;
+        padding: 5px;
+    }
 }

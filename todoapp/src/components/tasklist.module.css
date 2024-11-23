@@ -8,24 +8,39 @@
 
 .myItemName{
     font-weight: bold;
-    padding: 20px;
+    padding: 2rem 1rem 2rem 1rem;
     cursor: pointer;
+    width: 70%;
+    overflow-wrap: break-word;
 }
 
 .line {
     color: 1px solid brown;
+    width: 70%;
+    margin-left: 1rem;
 }
 
 .deleteButton {
     background-color: red;
-    float: right;
     color: white;
     border: none;
     padding: 4px 6px;
     border-radius: 5px;
     cursor: pointer;
+    float: right;
 }
 
 .completed {
     text-decoration: line-through;
+}
+
+@media screen and (max-width: 550px) {
+    .myItem {
+        width: 30rem;
+        margin-left: 3.5rem;
+    }
+
+    .deleteButton {
+        margin-right: 5rem;
+    }
 }
